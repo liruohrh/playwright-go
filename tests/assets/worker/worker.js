@@ -1,6 +1,6 @@
 console.log('hello from the worker');
 
-function workerFunction() {
+self.workerFunction = () => {
   return 'worker function result';
 }
 
